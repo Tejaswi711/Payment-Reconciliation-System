@@ -1,0 +1,1739 @@
+{
+  "scale": "starter",
+  "checks": 192,
+  "status_counts": {
+    "PASS": 187,
+    "PASS_WITH_LABELLED_ANOMALIES": 5
+  },
+  "overall": "PASS",
+  "results": [
+    {
+      "check": "merchants: primary key merchant_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.merchant_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.merchant_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.merchant_name required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.country required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.country allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.settlement_currency required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.settlement_currency allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.category required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.category allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.fee_rate_pct required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.fixed_fee required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.settlement_delay_days required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.settlement_delay_days allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.status required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.status allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.onboarded_date required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants.fee_effective_from required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders: primary key payment_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.payment_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.payment_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.merchant_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.merchant_id -> merchants.merchant_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.customer_ref required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.customer_ref ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.amount required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.currency required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.currency allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.created_at required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.status required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.status allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.captured_amount required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.refunded_amount required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders.attempt_count required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts: primary key attempt_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.attempt_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.attempt_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.payment_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.payment_id -> payment_orders.payment_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.attempt_no required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.attempted_at required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.outcome required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.outcome allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.decline_code allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.payment_method required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts.payment_method allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events: primary key ingest_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.ingest_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.ingest_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.delivery_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.delivery_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.event_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.event_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.payment_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.payment_id -> payment_orders.payment_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.attempt_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.attempt_id -> payment_attempts.attempt_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.event_type required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.event_type allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.amount required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.currency required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.currency allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.event_at required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events.received_at required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches: primary key batch_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.batch_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.batch_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.currency required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.currency allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.settlement_date required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.line_count required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.capture_count required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.refund_count required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.gross_captured required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.gross_refunded required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.fee_total required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.net_amount required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.status required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches.status allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines: primary key settlement_line_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.settlement_line_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.settlement_line_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.batch_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.batch_id -> settlement_batches.batch_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.event_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.event_id -> processor_events.event_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.payment_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.payment_id -> payment_orders.payment_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.line_type required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.line_type allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.gross_amount required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.fee_amount required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.net_amount required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.currency required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.currency allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines.event_date required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines: primary key bank_line_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.bank_line_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.bank_line_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.account_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.account_id allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.value_date required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.amount required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.currency required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.currency allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.direction required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.direction allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.counterparty required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines.description required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log: primary key dedup_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.dedup_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.dedup_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.ingest_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.ingest_id -> processor_events.ingest_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.event_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.duplicate_of_ingest_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.duplicate_of_ingest_id -> processor_events.ingest_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.reason required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.reason allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.payload_identical required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.payload_identical allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.decision required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event_dedup_log.decision allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 74,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches: primary key match_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.match_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.match_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.match_level required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.match_level allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.settlement_line_id -> settlement_lines.settlement_line_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.batch_id -> settlement_batches.batch_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.bank_line_id -> bank_statement_lines.bank_line_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.match_status required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.match_status allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.match_method required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.match_method allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.currency allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "reconciliation_matches.matched_on required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 2568,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions: primary key exception_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.exception_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.exception_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.exception_type required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.exception_type allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.severity required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.severity allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.entity_type required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.entity_type allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.entity_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.match_id -> reconciliation_matches.match_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.currency allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.rule required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.status required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.status allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "exceptions.created_at required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 14,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions: primary key resolution_id unique",
+      "category": "primary_key",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.resolution_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.resolution_id ID format",
+      "category": "id_format",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.exception_id required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.exception_id -> exceptions.exception_id",
+      "category": "foreign_key",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.step_no required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.actor_role required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.actor_role allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.action required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.action allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.resulting_status required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.resulting_status allowed values",
+      "category": "enum",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.recorded_at required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "resolutions.note required",
+      "category": "required",
+      "status": "PASS",
+      "rows_checked": 19,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "merchants: row count = 100",
+      "category": "volume",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_orders: row count = 2500",
+      "category": "volume",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "payment_attempts: row count = 2750",
+      "category": "volume",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_batches: row count = 100",
+      "category": "volume",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "bank_statement_lines: row count = 150",
+      "category": "volume",
+      "status": "PASS",
+      "rows_checked": 150,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "processor_events: one row per event_id",
+      "category": "duplicates",
+      "status": "PASS_WITH_LABELLED_ANOMALIES",
+      "rows_checked": 5238,
+      "failures": 74,
+      "explained_by_ground_truth": 74,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_lines: one line per event_id",
+      "category": "duplicates",
+      "status": "PASS_WITH_LABELLED_ANOMALIES",
+      "rows_checked": 2415,
+      "failures": 3,
+      "explained_by_ground_truth": 3,
+      "sample_unexplained": []
+    },
+    {
+      "check": "attempt time >= order created_at",
+      "category": "date_order",
+      "status": "PASS",
+      "rows_checked": 2750,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event time >= attempt time",
+      "category": "date_order",
+      "status": "PASS_WITH_LABELLED_ANOMALIES",
+      "rows_checked": 5164,
+      "failures": 3,
+      "explained_by_ground_truth": 3,
+      "sample_unexplained": []
+    },
+    {
+      "check": "webhook received_at >= event_at",
+      "category": "date_order",
+      "status": "PASS",
+      "rows_checked": 5238,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "refund after capture",
+      "category": "date_order",
+      "status": "PASS_WITH_LABELLED_ANOMALIES",
+      "rows_checked": 89,
+      "failures": 3,
+      "explained_by_ground_truth": 3,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement_date >= event_date",
+      "category": "date_order",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "fee_effective_from >= onboarded_date",
+      "category": "date_order",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "batch totals = sum of lines; net = captured - refunded - fees",
+      "category": "arithmetic",
+      "status": "PASS",
+      "rows_checked": 100,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "line net = gross - fee",
+      "category": "arithmetic",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "fee = round(gross x rate% + fixed) for captures, 0 for refunds",
+      "category": "arithmetic",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "amounts rounded to currency minor unit (JPY 0 dp)",
+      "category": "arithmetic",
+      "status": "PASS",
+      "rows_checked": 0,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "order captured/refunded = sum of unique events; refund <= capture",
+      "category": "arithmetic",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "attempt sequence and event lifecycle per order",
+      "category": "lifecycle",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "order status derived from events",
+      "category": "lifecycle",
+      "status": "PASS",
+      "rows_checked": 2500,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "event payment/currency consistent with attempt and order",
+      "category": "lifecycle",
+      "status": "PASS",
+      "rows_checked": 5164,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "settlement line currency = batch currency",
+      "category": "lifecycle",
+      "status": "PASS",
+      "rows_checked": 2415,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "every captured/refunded event appears in settlement",
+      "category": "coverage",
+      "status": "PASS_WITH_LABELLED_ANOMALIES",
+      "rows_checked": 2414,
+      "failures": 2,
+      "explained_by_ground_truth": 2,
+      "sample_unexplained": []
+    },
+    {
+      "check": "ground truth not leaked into input/output columns",
+      "category": "ground_truth",
+      "status": "PASS",
+      "rows_checked": 11,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    },
+    {
+      "check": "ground truth stored outside data folder",
+      "category": "ground_truth",
+      "status": "PASS",
+      "rows_checked": 1,
+      "failures": 0,
+      "explained_by_ground_truth": 0,
+      "sample_unexplained": []
+    }
+  ]
+}

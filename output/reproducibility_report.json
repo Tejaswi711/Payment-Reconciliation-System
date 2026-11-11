@@ -1,0 +1,137 @@
+{
+  "scale": "starter",
+  "seed": 20261022,
+  "runs": 2,
+  "identical": true,
+  "different_seed_changes_data": true,
+  "files": [
+    {
+      "file": "data\\bank_statement_lines.csv",
+      "rows_run_a": 150,
+      "rows_run_b": 150,
+      "sha256_run_a": "768b1985005a94bb8e77d7907c4151956931136c04449dbd58ed2e3ed3641ec2",
+      "sha256_run_b": "768b1985005a94bb8e77d7907c4151956931136c04449dbd58ed2e3ed3641ec2",
+      "identical": true
+    },
+    {
+      "file": "data\\json\\bank_statement_lines.json",
+      "rows_run_a": null,
+      "rows_run_b": null,
+      "sha256_run_a": "972f8eea178c9174b6b1b16e6c3fe0bbf96e7dbd1ac4a5577e219c92a673feaf",
+      "sha256_run_b": "972f8eea178c9174b6b1b16e6c3fe0bbf96e7dbd1ac4a5577e219c92a673feaf",
+      "identical": true
+    },
+    {
+      "file": "data\\json\\merchants.json",
+      "rows_run_a": null,
+      "rows_run_b": null,
+      "sha256_run_a": "43e839e138e5d007e20fc495088ebe1d96c627e06c6b9bbb8fe84b10f52cb24e",
+      "sha256_run_b": "43e839e138e5d007e20fc495088ebe1d96c627e06c6b9bbb8fe84b10f52cb24e",
+      "identical": true
+    },
+    {
+      "file": "data\\json\\payment_attempts.json",
+      "rows_run_a": null,
+      "rows_run_b": null,
+      "sha256_run_a": "0747322f4ccafdfe2b02fe7051553ff010f34dad89db8bcab82e272bd017e889",
+      "sha256_run_b": "0747322f4ccafdfe2b02fe7051553ff010f34dad89db8bcab82e272bd017e889",
+      "identical": true
+    },
+    {
+      "file": "data\\json\\payment_orders.json",
+      "rows_run_a": null,
+      "rows_run_b": null,
+      "sha256_run_a": "0075a3f4a9a4726ec7001a06606ca3106817683a2ebd64fb438fb8a94577af18",
+      "sha256_run_b": "0075a3f4a9a4726ec7001a06606ca3106817683a2ebd64fb438fb8a94577af18",
+      "identical": true
+    },
+    {
+      "file": "data\\json\\processor_events.json",
+      "rows_run_a": null,
+      "rows_run_b": null,
+      "sha256_run_a": "d63e90de42960b261eb783dfaec1981d371f4bdee3ffb2cd62eb6cd52c17a051",
+      "sha256_run_b": "d63e90de42960b261eb783dfaec1981d371f4bdee3ffb2cd62eb6cd52c17a051",
+      "identical": true
+    },
+    {
+      "file": "data\\json\\settlement_batches.json",
+      "rows_run_a": null,
+      "rows_run_b": null,
+      "sha256_run_a": "13f24618cecfe1e08a3ccda8fd1acafca00608b4dad36fe5a55b79ffb8cdea16",
+      "sha256_run_b": "13f24618cecfe1e08a3ccda8fd1acafca00608b4dad36fe5a55b79ffb8cdea16",
+      "identical": true
+    },
+    {
+      "file": "data\\json\\settlement_lines.json",
+      "rows_run_a": null,
+      "rows_run_b": null,
+      "sha256_run_a": "be1ad734cd5f43c537a975bdb5529332287063aa2e40e3049ab419a4a060f129",
+      "sha256_run_b": "be1ad734cd5f43c537a975bdb5529332287063aa2e40e3049ab419a4a060f129",
+      "identical": true
+    },
+    {
+      "file": "data\\merchants.csv",
+      "rows_run_a": 100,
+      "rows_run_b": 100,
+      "sha256_run_a": "41732f0a8c920c96bf533ce40136b07d44be65ff34df48bd8837cc780549df63",
+      "sha256_run_b": "41732f0a8c920c96bf533ce40136b07d44be65ff34df48bd8837cc780549df63",
+      "identical": true
+    },
+    {
+      "file": "data\\payment_attempts.csv",
+      "rows_run_a": 2750,
+      "rows_run_b": 2750,
+      "sha256_run_a": "f8a713b1a02f6710cdeb86e787bbca3d7260f99e4ed1f1a0efeb7822de6ecb60",
+      "sha256_run_b": "f8a713b1a02f6710cdeb86e787bbca3d7260f99e4ed1f1a0efeb7822de6ecb60",
+      "identical": true
+    },
+    {
+      "file": "data\\payment_orders.csv",
+      "rows_run_a": 2500,
+      "rows_run_b": 2500,
+      "sha256_run_a": "7219f3ba6efcfa6fa2b00dff7aa0d3ace994dae9285ad3dd3fe60a0aaa5fa6b7",
+      "sha256_run_b": "7219f3ba6efcfa6fa2b00dff7aa0d3ace994dae9285ad3dd3fe60a0aaa5fa6b7",
+      "identical": true
+    },
+    {
+      "file": "data\\processor_events.csv",
+      "rows_run_a": 5238,
+      "rows_run_b": 5238,
+      "sha256_run_a": "28ecffa24bf82bc89dde88533d7f0f4c50e8072685335861136b87263c5a4c86",
+      "sha256_run_b": "28ecffa24bf82bc89dde88533d7f0f4c50e8072685335861136b87263c5a4c86",
+      "identical": true
+    },
+    {
+      "file": "data\\settlement_batches.csv",
+      "rows_run_a": 100,
+      "rows_run_b": 100,
+      "sha256_run_a": "b67a25c686fbcab8081ed4a6e3588d347466085e7b2f6fe3fea65fa9249d892a",
+      "sha256_run_b": "b67a25c686fbcab8081ed4a6e3588d347466085e7b2f6fe3fea65fa9249d892a",
+      "identical": true
+    },
+    {
+      "file": "data\\settlement_lines.csv",
+      "rows_run_a": 2415,
+      "rows_run_b": 2415,
+      "sha256_run_a": "81bb5cc196a781ae64b8fecae171a07869b07b362cba77ff1bdb9fe6a6808975",
+      "sha256_run_b": "81bb5cc196a781ae64b8fecae171a07869b07b362cba77ff1bdb9fe6a6808975",
+      "identical": true
+    },
+    {
+      "file": "ground_truth\\ground_truth.csv",
+      "rows_run_a": 175,
+      "rows_run_b": 175,
+      "sha256_run_a": "77399d46fe2b58a3cf9d4b536c61e0784e719814a2ba1b9779e11ab93587da05",
+      "sha256_run_b": "77399d46fe2b58a3cf9d4b536c61e0784e719814a2ba1b9779e11ab93587da05",
+      "identical": true
+    },
+    {
+      "file": "ground_truth\\ground_truth.json",
+      "rows_run_a": null,
+      "rows_run_b": null,
+      "sha256_run_a": "39b098be89200df8224e435b4d3fd9353d5cd016943bb26d219d61799f827787",
+      "sha256_run_b": "39b098be89200df8224e435b4d3fd9353d5cd016943bb26d219d61799f827787",
+      "identical": true
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "ground_truth_scores": {
+    "anomaly_cases": 18,
+    "anomaly_cases_handled": 18,
+    "anomaly_recall": 1.0,
+    "scenario_cases": 157,
+    "scenario_accuracy": 1.0,
+    "exception_precision": 1.0,
+    "exception_recall": 1.0,
+    "exception_f1": 1.0,
+    "false_positive_exceptions": [],
+    "by_issue_type": {
+      "CURRENCY_MISMATCH": {
+        "category": "ANOMALY",
+        "expected": 2,
+        "handled": 2,
+        "missed": [],
+        "recall": 1.0
+      },
+      "DELAYED_PAYOUT": {
+        "category": "SCENARIO",
+        "expected": 9,
+        "handled": 9,
+        "missed": [],
+        "recall": 1.0
+      },
+      "DELAYED_SETTLEMENT": {
+        "category": "SCENARIO",
+        "expected": 74,
+        "handled": 74,
+        "missed": [],
+        "recall": 1.0
+      },
+      "DUPLICATE_INGESTION": {
+        "category": "ANOMALY",
+        "expected": 4,
+        "handled": 4,
+        "missed": [],
+        "recall": 1.0
+      },
+      "DUPLICATE_SETTLEMENT_LINE": {
+        "category": "ANOMALY",
+        "expected": 3,
+        "handled": 3,
+        "missed": [],
+        "recall": 1.0
+      },
+      "DUPLICATE_WEBHOOK": {
+        "category": "SCENARIO",
+        "expected": 70,
+        "handled": 70,
+        "missed": [],
+        "recall": 1.0
+      },
+      "FEE_DIFFERENCE": {
+        "category": "ANOMALY",
+        "expected": 2,
+        "handled": 2,
+        "missed": [],
+        "recall": 1.0
+      },
+      "MISSING_FROM_SETTLEMENT": {
+        "category": "ANOMALY",
+        "expected": 2,
+        "handled": 2,
+        "missed": [],
+        "recall": 1.0
+      },
+      "MISSING_PAYOUT": {
+        "category": "ANOMALY",
+        "expected": 1,
+        "handled": 1,
+        "missed": [],
+        "recall": 1.0
+      },
+      "REFUND_BEFORE_CAPTURE": {
+        "category": "ANOMALY",
+        "expected": 3,
+        "handled": 3,
+        "missed": [],
+        "recall": 1.0
+      },
+      "ROUNDING_DIFFERENCE": {
+        "category": "SCENARIO",
+        "expected": 4,
+        "handled": 4,
+        "missed": [],
+        "recall": 1.0
+      },
+      "UNMATCHED_BANK_LINE": {
+        "category": "ANOMALY",
+        "expected": 1,
+        "handled": 1,
+        "missed": [],
+        "recall": 1.0
+      }
+    },
+    "by_exception_type": {
+      "CURRENCY_MISMATCH": {
+        "raised": 2,
+        "true_positive": 2,
+        "precision": 1.0
+      },
+      "DUPLICATE_SETTLEMENT_LINE": {
+        "raised": 3,
+        "true_positive": 3,
+        "precision": 1.0
+      },
+      "FEE_DIFFERENCE": {
+        "raised": 2,
+        "true_positive": 2,
+        "precision": 1.0
+      },
+      "MISSING_FROM_SETTLEMENT": {
+        "raised": 2,
+        "true_positive": 2,
+        "precision": 1.0
+      },
+      "MISSING_PAYOUT": {
+        "raised": 1,
+        "true_positive": 1,
+        "precision": 1.0
+      },
+      "REFUND_BEFORE_CAPTURE": {
+        "raised": 3,
+        "true_positive": 3,
+        "precision": 1.0
+      },
+      "UNMATCHED_BANK_LINE": {
+        "raised": 1,
+        "true_positive": 1,
+        "precision": 1.0
+      }
+    }
+  },
+  "acceptance_criteria": [
+    {
+      "criterion": "Matched amounts reconcile under configured tolerance",
+      "status": "PASS",
+      "detail": "2,507 matched decisions, 0 outside tolerance"
+    },
+    {
+      "criterion": "Every unmatched item is an exception; nothing silently dropped",
+      "status": "PASS",
+      "detail": "0 unmatched decisions without exception; uncovered: bank lines 0, batches 0, settlement lines 0, events 0"
+    },
+    {
+      "criterion": "Duplicate events are idempotent",
+      "status": "PASS",
+      "detail": "74 duplicate rows ignored (log has 74); identical output on re-run: True; identical matches/exceptions after re-ingesting all 5,238 events again: True"
+    },
+    {
+      "criterion": "Fee and refund treatment is consistent",
+      "status": "PASS",
+      "detail": "line fee/sign errors 0, batch net errors 0, over-refunded orders 0, fee differences all handled by POST_FEE_ADJUSTMENT: True"
+    }
+  ],
+  "overall": "PASS"
+}

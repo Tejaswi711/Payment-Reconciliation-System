@@ -1,0 +1,132 @@
+{
+  "generator": "generate_data.py",
+  "generator_version": "1.0.0",
+  "command": "python generate_data.py --scale starter --seed 20261022",
+  "seed": 20261022,
+  "scale": "starter",
+  "parameters": {
+    "merchants": 100,
+    "orders": 2500,
+    "extra_attempts": 250,
+    "settlement_days": 25,
+    "bank_lines": 150
+  },
+  "edge_cases": {
+    "duplicate_settlement_line": 3,
+    "bank_fee_difference": 2,
+    "refund_before_capture": 3,
+    "missing_from_settlement": 2,
+    "missing_payout": 1,
+    "unmatched_bank_line": 1,
+    "currency_mismatch": 2,
+    "duplicate_ingestion": 4
+  },
+  "rates": {
+    "single_attempt_success": 0.95,
+    "retry_success": 0.8,
+    "full_refund": 0.02,
+    "partial_refund": 0.04,
+    "delayed_settlement": 0.03,
+    "duplicate_webhook": 0.015,
+    "rounding_difference": 0.03,
+    "delayed_payout": 0.05
+  },
+  "python_version": "3.11.9",
+  "provenance": {
+    "external_data_sources": [],
+    "statement": "100% synthetic. Names come from built-in word lists; no real people, cards, merchants or bank data were used or downloaded.",
+    "license": "Generated data may be freely redistributed."
+  },
+  "row_counts": {
+    "merchants": 100,
+    "payment_orders": 2500,
+    "payment_attempts": 2750,
+    "processor_events": 5238,
+    "settlement_batches": 100,
+    "settlement_lines": 2415,
+    "bank_statement_lines": 150,
+    "ground_truth": 175
+  },
+  "files": [
+    {
+      "path": "data\\bank_statement_lines.csv",
+      "rows": 150,
+      "sha256": "768b1985005a94bb8e77d7907c4151956931136c04449dbd58ed2e3ed3641ec2"
+    },
+    {
+      "path": "data\\merchants.csv",
+      "rows": 100,
+      "sha256": "41732f0a8c920c96bf533ce40136b07d44be65ff34df48bd8837cc780549df63"
+    },
+    {
+      "path": "data\\payment_attempts.csv",
+      "rows": 2750,
+      "sha256": "f8a713b1a02f6710cdeb86e787bbca3d7260f99e4ed1f1a0efeb7822de6ecb60"
+    },
+    {
+      "path": "data\\payment_orders.csv",
+      "rows": 2500,
+      "sha256": "7219f3ba6efcfa6fa2b00dff7aa0d3ace994dae9285ad3dd3fe60a0aaa5fa6b7"
+    },
+    {
+      "path": "data\\processor_events.csv",
+      "rows": 5238,
+      "sha256": "28ecffa24bf82bc89dde88533d7f0f4c50e8072685335861136b87263c5a4c86"
+    },
+    {
+      "path": "data\\settlement_batches.csv",
+      "rows": 100,
+      "sha256": "b67a25c686fbcab8081ed4a6e3588d347466085e7b2f6fe3fea65fa9249d892a"
+    },
+    {
+      "path": "data\\settlement_lines.csv",
+      "rows": 2415,
+      "sha256": "81bb5cc196a781ae64b8fecae171a07869b07b362cba77ff1bdb9fe6a6808975"
+    },
+    {
+      "path": "data\\json\\bank_statement_lines.json",
+      "rows": null,
+      "sha256": "972f8eea178c9174b6b1b16e6c3fe0bbf96e7dbd1ac4a5577e219c92a673feaf"
+    },
+    {
+      "path": "data\\json\\merchants.json",
+      "rows": null,
+      "sha256": "43e839e138e5d007e20fc495088ebe1d96c627e06c6b9bbb8fe84b10f52cb24e"
+    },
+    {
+      "path": "data\\json\\payment_attempts.json",
+      "rows": null,
+      "sha256": "0747322f4ccafdfe2b02fe7051553ff010f34dad89db8bcab82e272bd017e889"
+    },
+    {
+      "path": "data\\json\\payment_orders.json",
+      "rows": null,
+      "sha256": "0075a3f4a9a4726ec7001a06606ca3106817683a2ebd64fb438fb8a94577af18"
+    },
+    {
+      "path": "data\\json\\processor_events.json",
+      "rows": null,
+      "sha256": "d63e90de42960b261eb783dfaec1981d371f4bdee3ffb2cd62eb6cd52c17a051"
+    },
+    {
+      "path": "data\\json\\settlement_batches.json",
+      "rows": null,
+      "sha256": "13f24618cecfe1e08a3ccda8fd1acafca00608b4dad36fe5a55b79ffb8cdea16"
+    },
+    {
+      "path": "data\\json\\settlement_lines.json",
+      "rows": null,
+      "sha256": "be1ad734cd5f43c537a975bdb5529332287063aa2e40e3049ab419a4a060f129"
+    },
+    {
+      "path": "ground_truth\\ground_truth.csv",
+      "rows": 175,
+      "sha256": "77399d46fe2b58a3cf9d4b536c61e0784e719814a2ba1b9779e11ab93587da05"
+    },
+    {
+      "path": "ground_truth\\ground_truth.json",
+      "rows": null,
+      "sha256": "39b098be89200df8224e435b4d3fd9353d5cd016943bb26d219d61799f827787"
+    }
+  ]
+}
